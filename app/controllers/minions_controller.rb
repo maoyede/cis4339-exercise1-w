@@ -5,6 +5,7 @@ class MinionsController < ApplicationController
   # GET /minions.json
   def index
     @minions = Minion.all
+  
   end
 
   # GET /minions/1
